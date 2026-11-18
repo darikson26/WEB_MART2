@@ -1,0 +1,18 @@
+@baseUrl = http://localhost:8168
+
+POST {{baseUrl}}/api/v1/disbursement-orders
+Accept: application/json
+Content-Type: application/json
+Accept-Language: en-US
+
+{
+  "orderTrackingCode": "5821d351-1af1-4238-a341-8ab87f5fe166",
+  "affiliateStoreId": "901a6c1c-89de-4f1d-9491-51f06414f1bc",
+  "scheduledFrom": "2026-12-01",
+  "scheduledTo": "2026-12-31",
+  "transferCapAmount": 2500.00,
+  "transferCapCurrencyCode": "PEN",
+  "status": "Queued",
+  "user": "U202422620",
+  "remarks": "Practice disbursement order"
+}
